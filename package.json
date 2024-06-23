@@ -1,0 +1,36 @@
+{
+  "name": "bund",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack serve",
+    "server:mock": "json-server --port 3001 db.json",
+    "datagen": "ts-node src/datagen.ts > db.json"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "chart.js": "^4.4.3",
+    "chartjs-adapter-date-fns": "^3.0.0",
+    "chartjs-chart-matrix": "^2.0.1",
+    "vanjs-core": "^1.5.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.4",
+    "css-loader": "^7.1.2",
+    "json-server": "^1.0.0-beta.1",
+    "sass": "^1.77.4",
+    "sass-loader": "^14.2.1",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2",
+    "webpack": "^5.91.0",
+    "webpack-bundle-analyzer": "^4.10.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}

@@ -1,0 +1,24 @@
+$text: #101517;
+$title: #452562;
+$bg: cornsilk;
+
+body {
+    color: $text;
+    background: $bg;
+    font-family: system-ui;
+    box-sizing: border-box;
+}
+
+.main {
+    width: min(100% - 3rem, 100ch);
+    margin-inline: auto;
+}
+
+h1 {
+    color: $title;
+}
+
+.chart-container {
+    width: 80%;
+    height: 200px;
+}
